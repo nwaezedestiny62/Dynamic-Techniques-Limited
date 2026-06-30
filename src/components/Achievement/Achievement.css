@@ -1,0 +1,92 @@
+.achievement {
+    display: flex;
+    justify-content: center;
+    gap: 1.8rem;
+    padding: 2rem 0;
+    flex-wrap: wrap;
+    background: rgba(15, 23, 42, 0.6);
+    border-radius: 20px;
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(103, 232, 249, 0.15);
+}
+
+.achievement__card {
+    flex: 1;
+    min-width: 240px;
+    max-width: 300px;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid rgba(103, 232, 249, 0.1);
+}
+
+.achievement__card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 20px 40px rgba(16, 185, 129, 0.2);
+    border-color: #67e8f9;
+}
+
+.title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #1e2937;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 0.8rem 0 1.1rem;
+}
+
+.odometer {
+    font-size: 3.4rem;
+    font-weight: 700;
+    color: #0f766e;
+}
+
+.suffix {
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: #14b8a6;
+}
+
+.achievement__card p {
+    font-size: 1rem;
+    color: #475569;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 992px) {
+    .achievement__card { 
+        max-width: none; 
+        padding: 1.8rem 1.3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .odometer { font-size: 2.9rem; }
+    .suffix { font-size: 2.3rem; }
+    .achievement {
+        gap: 1.4rem;
+        padding: 1.8rem 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .achievement { 
+        flex-direction: column; 
+        align-items: center;
+    }
+    .odometer { font-size: 2.7rem; }
+    .suffix { font-size: 2.1rem; }
+}

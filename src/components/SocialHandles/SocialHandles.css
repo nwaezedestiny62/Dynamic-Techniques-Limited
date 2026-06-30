@@ -1,0 +1,17 @@
+.social_handles {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.social_handles .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 40px;
+    height: 40px;
+
+    border: var(--gray-border);
+    border-radius: 50%;
+}
