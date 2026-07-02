@@ -20,7 +20,6 @@ const Gallery = () => {
     <section id="gallery" className="gallery-section">
       <div className="gallery-container">
         
-        {/* Header with more top space */}
         <div className="gallery-header">
           <motion.h2 
             initial={{ opacity: 0, y: 40 }}
@@ -40,7 +39,7 @@ const Gallery = () => {
           <AnimatePresence>
             {displayImages.map((img, index) => (
               <motion.div
-                key={index}
+                key={img}
                 className="gallery-item"
                 initial={{ opacity: 0, scale: 0.8, y: 50 }}
                 animate={{ opacity: 1, scale: 1, y: 0 }}
@@ -49,9 +48,13 @@ const Gallery = () => {
                 whileHover={{ scale: 1.05, y: -10 }}
               >
                 <img 
-                  src={`../../assets/${img}`} 
+                  src={`../../assets/${img}`}     // ← This is the correct relative path
                   alt={`Industrial Project ${index + 1}`}
                   className="gallery-image"
+                  loading="lazy"
+                  onError={(e) => {
+                    e.target.src = 'https://via.placeholder.com/400x300?text=Image+Not+Found';
+                  }}
                 />
                 <div className="gallery-overlay">
                   <div className="overlay-content">
