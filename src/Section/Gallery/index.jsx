@@ -31,7 +31,7 @@ const Gallery = () => {
             Our <span className="highlight">Projects</span>
           </motion.h2>
           <p className="gallery-subtitle">
-            Explore some of our finest architectural masterpieces and construction works
+            Explore our completed industrial electrical, automation, and power infrastructure projects
           </p>
         </div>
 
@@ -49,14 +49,14 @@ const Gallery = () => {
                 whileHover={{ scale: 1.05, y: -10 }}
               >
                 <img 
-                  src={`/assets/${img}`} 
-                  alt={`Project ${index + 1}`}
+                  src={`../../assets/${img}`} 
+                  alt={`Industrial Project ${index + 1}`}
                   className="gallery-image"
                 />
                 <div className="gallery-overlay">
                   <div className="overlay-content">
                     <h3>Project {index + 1}</h3>
-                    <p>Architectural Excellence</p>
+                    <p>Electrical & Automation Excellence</p>
                   </div>
                 </div>
               </motion.div>

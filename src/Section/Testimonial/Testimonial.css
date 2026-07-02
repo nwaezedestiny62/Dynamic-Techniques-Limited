@@ -8,7 +8,9 @@
   grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
   gap: 2.5rem;
 }
-
+#testimonials p {
+  margin-bottom: 35px;
+}
 .testimonials__card {
   background: rgba(255, 80, 40, 0.08);           /* Red-orange tint */
   border: 1px solid rgba(255, 120, 60, 0.2);

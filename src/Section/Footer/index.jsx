@@ -26,9 +26,10 @@ const Footer = () => {
               <Logo />
               
               <p className="footer-desc">
-                Our mission is to build lasting spaces that inspire and uplift, 
-                combining quality craftsmanship with innovative solutions to meet 
-                the evolving needs of our clients and communities.
+                Dynamic Techniques Limited is a trusted industrial engineering company 
+                specializing in electrical installations, automation systems, and power 
+                infrastructure solutions. We deliver quality, safety, and reliability 
+                to industries across Nigeria.
               </p>
 
               {/* Social Media */}

@@ -8,9 +8,6 @@ const Logo = () => {
     <div className='logo'>
       <img src={logo} alt="" />
     </div>
-    <h2>
-    Con<span className="text__gradient">Fix</span>
-    </h2>
     </div>
   )
 }

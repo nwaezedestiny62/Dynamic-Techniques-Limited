@@ -10,20 +10,21 @@ const About = () => {
         <div className="container">
           {/* Image Side */}
           <div className="about__image">
-            <img src={about} alt="About Confix" />
+            <img src={about} alt="Dynamic Techniques Limited team on industrial site" />
           </div>
 
           {/* Content Side */}
           <div className="section__header">
             <h3 className="title">About Us</h3>
             <h1 className="sub__heading">
-              Building Your Vision, Crafting Your Future
+              Engineering Excellence, Powering Industries
             </h1>
             <p className="description">
-              At Confix, we turn your ideas into reality with expert 
-              craftsmanship and innovative solutions. From concept to 
-              completion, we’re dedicated to creating spaces that inspire and 
-              stand the test of time. Let’s build a future you can be proud of.
+              At Dynamic Techniques Limited, we specialize in delivering high-quality 
+              industrial engineering solutions with expertise in electrical systems, 
+              automation, and power infrastructure. Since 2018, we have been committed 
+              to providing reliable, safe, and innovative technical solutions that help 
+              Nigerian industries operate more efficiently and productively.
             </p>
 
             <div className="keypoints__container">

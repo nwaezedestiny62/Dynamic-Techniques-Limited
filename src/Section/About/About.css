@@ -11,7 +11,9 @@
     border-top-left-radius: var(--radius-5);
     overflow: visible;
 }
-
+.title h3 {
+    color: white;
+}
 #about .about__image {
     border-radius: var(--radius-3);
     overflow: hidden;
@@ -19,7 +21,10 @@
     margin: auto;
     border: 10px solid var(--primary);
 }
-
+.sub__heading {
+    color: yellowgreen;
+    text-shadow: 1px 1px black;
+}
 #about .keypoints__container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);

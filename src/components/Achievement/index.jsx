@@ -15,9 +15,9 @@ const Achievement = () => {
             ([entry]) => {
                 if (entry.isIntersecting) {
                     const timeout = setTimeout(() => {
-                        setProjects(700);
-                        setSatisfaction(98);
-                        setExperience(27);
+                        setProjects(450);
+                        setSatisfaction(96);
+                        setExperience(7);
                     }, 300);
                     return () => clearTimeout(timeout);
                 }
@@ -44,7 +44,7 @@ const Achievement = () => {
                     />
                     <span className="suffix">+</span>
                 </div>
-                <p>Projects Across Diverse Sectors</p>
+                <p>Industrial & Power Projects</p>
             </div>
 
             <div className="achievement__card">
@@ -56,11 +56,11 @@ const Achievement = () => {
                     />
                     <span className="suffix">%</span>
                 </div>
-                <p>Trusted by Clients Nationwide</p>
+                <p>Trusted by Industrial Clients Nationwide</p>
             </div>
 
             <div className="achievement__card">
-                <h3 className="title">Years of Excellence</h3>
+                <h3 className="title">Years of Expertise</h3>
                 <div className="flex">
                     <ReactOdometer 
                         value={experience} 
@@ -68,7 +68,7 @@ const Achievement = () => {
                     />
                     <span className="suffix">+</span>
                 </div>
-                <p>Delivering Quality Since 1998</p>
+                <p>In Electrical & Automation Solutions</p>
             </div>
         </div>
     );

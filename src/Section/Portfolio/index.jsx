@@ -8,12 +8,13 @@ const Portfolio = () => {
       <div className="container">
         <div className="section__header">
             <h3 className="section__heading">
-                Crafting Spaces, Igniting Dreams
+                Engineering Solutions, Powering Industries
             </h3>
             <p className="description">
-                Explore our fiery portfolio — where passion meets precision. 
-                From bold luxury residences to visionary commercial masterpieces, 
-                we transform visions into breathtaking realities.
+                Explore our portfolio of excellence — where technical expertise meets 
+                reliable execution. From industrial electrical systems and automation 
+                to power infrastructure and control solutions, we deliver high-performance 
+                results for Nigeria’s industries.
             </p>
         </div>
         

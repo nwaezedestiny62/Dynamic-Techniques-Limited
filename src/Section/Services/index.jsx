@@ -1,38 +1,54 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-scroll";
 import "./Services.css";
-import { Link } from 'react-scroll';
-import { sketch } from '../../assets';
-import { services } from '../../data';
+import { sketch } from "../../assets";
+import { services } from "../../data";
 
 const Services = () => {
   return (
-    <section id="services">
+    <section id="services" className="services-section">
       <div className="overlay__div">
         <div className="container">
           <div className="section-header">
-            <h3 className="sub-heading">OUR EXPERTISE</h3>
-            <h2>Plan Your Dream Project with Us</h2>
+            <span className="sub-heading">OUR EXPERTISE</span>
+            <h2 className="title">
+              Powering Industries with Technical Excellence
+            </h2>
             <p className="muted description">
-              Ready to bring your vision to life? Our expert team offers personalized 
-              consultations to guide you through every step—from design to budget and beyond. 
-              Let’s lay the groundwork for your next big project. Schedule your consultation today!
+              We provide expert industrial engineering solutions with a strong focus 
+              on electrical systems, automation, and power infrastructure. From project 
+              planning and design to installation, testing, and maintenance — we deliver 
+              reliable, high-quality results that keep your operations running at peak performance.
             </p>
-            <Link to="contact" className="btn primary">Book Consultation</Link>
+            <Link
+              to="contact"
+              smooth={true}
+              duration={600}
+              offset={-70}
+              className="btn primary"
+            >
+              Book Consultation
+            </Link>
           </div>
-          
           <div className="object__contain">
-            <img src={sketch} alt="Architectural sketch" />
+            <img
+              src={sketch}
+              alt="Industrial electrical and automation project"
+              loading="lazy"
+            />
           </div>
         </div>
 
         <div className="grid services">
           {services.map((service, index) => (
-            <div className="service" key={index}>
+            <article className="service" key={`${service.title}-${index}`}>
               <div className="flex top">
                 <div className="flex__center icon">
                   {service.icon}
                 </div>
-                <h4 className="title">{service.title}</h4>
+                <h4 className="title">
+                  {service.title}
+                </h4>
               </div>
               <div className="middle">
                 <p className="description">
@@ -40,9 +56,17 @@ const Services = () => {
                 </p>
               </div>
               <div className="flex bottom">
-                <Link to="contact" className="btn">Reach Out</Link>
+                <Link
+                  to="contact"
+                  smooth={true}
+                  duration={600}
+                  offset={-70}
+                  className="btn"
+                >
+                  Reach Out
+                </Link>
               </div>
-            </div>
+            </article>
           ))}
         </div>
       </div>

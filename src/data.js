@@ -37,48 +37,30 @@ import {
 } from "./assets";
 
 export const navigations = [
-  {
-    label: "About Us",
-    to: "about",
-  },
-  {
-    label: "Services",
-    to: "services",
-  },
-  {
-    label: "Portfolio",
-    to: "portfolio",
-  },
-  {
-    label: "Team",
-    to: "team",
-  },
-  {
-    label: "Testimonials",
-    to: "testimonials",
-  },
-  {
-    label: "Contact Us",
-    to: "contact",
-  },
+  { label: "About Us", to: "about" },
+  { label: "Services", to: "services" },
+  { label: "Portfolio", to: "portfolio" },
+  { label: "Team", to: "team" },
+  { label: "Testimonials", to: "testimonials" },
+  { label: "Contact Us", to: "contact" },
 ];
 
 export const keypoints = [
   {
     icon: <FaTools />,
-    title: "Expert Craftsmanship",
+    title: "Expert Technical Execution",
   },
   {
     icon: <FaRegClock />,
-    title: "On-Time, Within Budget",
+    title: "On-Time Project Delivery",
   },
   {
     icon: <FaLightbulb />,
-    title: "Innovative Solutions",
+    title: "Innovative Automation Solutions",
   },
   {
     icon: <FaHandsHelping />,
-    title: "Client-Centered Approach",
+    title: "Client-Focused Engineering",
   },
 ];
 
@@ -86,85 +68,85 @@ export const whyChooseUs = [
   {
     title: "Unmatched Quality",
     icon: <FaCheckCircle />,
-    description: "Craftsmanship guaranteed",
+    description: "Premium electrical and automation workmanship",
   },
   {
     title: "Timely Delivery",
     icon: <FaClock />,
-    description: "Projects completed on schedule",
+    description: "Projects completed on schedule and within budget",
   },
   {
-    title: "Innovative Designs",
+    title: "Innovative Solutions",
     icon: <FaDraftingCompass />,
-    description: "Creative and modern solutions",
+    description: "Advanced automation and power engineering",
   },
   {
     title: "Focused Service",
     icon: <FaUserFriends />,
-    description: "Prioritizing client satisfaction always",
+    description: "Dedicated to client satisfaction and safety",
   },
 ];
 
 export const services = [
   {
-    title: "Residential Construction",
+    title: "Electrical Installations",
     icon: <FaHome />,
-    description: `Building modern, high-quality homes tailored to your vision.`,
+    description: `HV & LV electrical systems, switchboards, distribution boards, cable tray containment, and complete project installations.`,
   },
   {
-    title: "Commercial Projects",
+    title: "Industrial Automation",
     icon: <FaBuilding />,
-    description: `Developing functional, innovative commercial spaces for businesses.`,
+    description: `Automation & control systems, PLC integration, process control, and smart industrial solutions.`,
   },
   {
-    title: "Renovation & Remodeling",
+    title: "Power Systems & Maintenance",
     icon: <FaTools />,
-    description: `Transforming existing spaces with expert renovation and design.`,
+    description: `Power infrastructure, electrical maintenance, emergency lighting, and reliable technical support.`,
   },
 ];
 
 export const portfolio = [
   {
-    title: "Luxury Residential Home",
+    title: "Industrial Power Distribution Project",
     image: portfolio1,
-    date: "May 15, 2023",
-    category: "Residential",
-    description: `A stunning 5-bedroom luxury home featuring contemporary architecture, floor-to-ceiling windows, and open-concept living spaces. Built with premium materials and high-end finishes to create a modern yet cozy atmosphere.`,
+    date: "March 2025",
+    category: "Power Systems",
+    description: `Complete HV/LV power distribution system installation for a major manufacturing facility in Lagos, including main switchboards and distribution boards.`,
   },
   {
-    title: "Corporate Office Building",
+    title: "Factory Automation Upgrade",
     image: portfolio2,
-    date: "November 30, 2022",
-    category: "Commercial",
-    description: `A state-of-the-art office building designed to foster innovation and collaboration. This project includes eco-friendly materials, expansive workspaces, and cutting-edge conference rooms.`,
+    date: "October 2024",
+    category: "Automation",
+    description: `Full automation and control system implementation for a food processing plant, improving efficiency and operational reliability.`,
   },
   {
-    title: "Retail Shopping Complex",
+    title: "Commercial Electrical Infrastructure",
     image: portfolio3,
-    date: "July 12, 2024",
-    category: "Retail",
-    description: `A bustling multi-level shopping complex offering retail spaces for international brands. The complex features stylish interiors, escalators, and vibrant common areas, perfect for customer engagement.`,
+    date: "June 2025",
+    category: "Commercial",
+    description: `Comprehensive electrical installation and cable tray containment for a large office complex in Ikeja.`,
   },
   {
-    title: "Luxury Resort & Spa",
+    title: "Emergency Lighting & Safety Systems",
     image: portfolio4,
-    date: "February 1, 2023",
-    category: "Hospitality",
-    description: `A 5-star luxury resort and spa set in a tropical paradise. The project includes infinity pools, private villas, and a wellness center, designed with natural materials to blend seamlessly with the surrounding environment.`,
+    date: "January 2025",
+    category: "Safety Systems",
+    description: `Design and installation of exit emergency lighting and safety systems across multiple industrial facilities.`,
   },
   {
-    title: "High-Rise Residential Complex",
+    title: "High-Capacity Power Project",
     image: portfolio5,
-    date: "September 18, 2023",
-    category: "Residential",
-    description: `A contemporary high-rise residential building featuring 100+ modern apartments. This urban living space includes a rooftop terrace, fitness center, and private balconies with city views.`,
+    date: "August 2024",
+    category: "Power Systems",
+    description: `Large-scale electrical power infrastructure project delivering reliable power solutions for an industrial client.`,
   },
   {
-    title: "Industrial Warehouse Facility",
+    title: "Process Control Automation",
     image: portfolio6,
-    date: "March 5, 2022",
-    category: "Industrial",
-    description: `A large-scale industrial warehouse designed for efficient logistics and operations. Featuring high ceilings, wide loading docks, and ample storage space, this project was built to optimize business workflows.`,
+    date: "April 2025",
+    category: "Automation",
+    description: `Advanced automation systems for process control, including integration and technical support for smooth operations.`,
   },
 ];
 
@@ -172,67 +154,67 @@ export const teamMembers = [
   {
     fullName: "Chinedu Okafor",
     image: member1,
-    title: "Lead Architect",
-    socialMedias:[
-      {name:"Facebook",icon:<FaFacebook/>,href:"http://facebook.com"},
-      {name:"LinkedIn",icon:<FaLinkedin/>,href:"http://linkedin.com"},
-      {name:"Youtube",icon:<FaYoutube/>,href:"https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1"},
-      {name:"Instagram",icon:<FaInstagram/>,href:"http://instagram.com"},
+    title: "Lead Electrical Engineer",
+    socialMedias: [
+      { name: "Facebook", icon: <FaFacebook />, href: "https://facebook.com" },
+      { name: "LinkedIn", icon: <FaLinkedin />, href: "https://linkedin.com" },
+      { name: "Youtube", icon: <FaYoutube />, href: "https://youtube.com" },
+      { name: "Instagram", icon: <FaInstagram />, href: "https://instagram.com" },
     ]
   },
   {
     fullName: "Aisha Ibrahim",
     image: member2,
-    title: "Senior Project Manager",
-    socialMedias:[
-      {name:"Facebook",icon:<FaFacebook/>,href:"http://facebook.com"},
-      {name:"LinkedIn",icon:<FaLinkedin/>,href:"http://linkedin.com"},
-      {name:"Youtube",icon:<FaYoutube/>,href:"https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1"},
-      {name:"Instagram",icon:<FaInstagram/>,href:"http://instagram.com"},
+    title: "Senior Automation Engineer",
+    socialMedias: [
+      { name: "Facebook", icon: <FaFacebook />, href: "https://facebook.com" },
+      { name: "LinkedIn", icon: <FaLinkedin />, href: "https://linkedin.com" },
+      { name: "Youtube", icon: <FaYoutube />, href: "https://youtube.com" },
+      { name: "Instagram", icon: <FaInstagram />, href: "https://instagram.com" },
     ]
   },
   {
     fullName: "Emmanuel Adeoye",
     image: member3,
-    title: "Chief Engineer",
-    socialMedias:[
-      {name:"Facebook",icon:<FaFacebook/>,href:"http://facebook.com"},
-      {name:"LinkedIn",icon:<FaLinkedin/>,href:"http://linkedin.com"},
-      {name:"Youtube",icon:<FaYoutube/>,href:"https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1"},
-      {name:"Instagram",icon:<FaInstagram/>,href:"http://instagram.com"},
+    title: "Chief Project Engineer",
+    socialMedias: [
+      { name: "Facebook", icon: <FaFacebook />, href: "https://facebook.com" },
+      { name: "LinkedIn", icon: <FaLinkedin />, href: "https://linkedin.com" },
+      { name: "Youtube", icon: <FaYoutube />, href: "https://youtube.com" },
+      { name: "Instagram", icon: <FaInstagram />, href: "https://instagram.com" },
     ]
   },
   {
     fullName: "Ngozi Eze",
     image: member4,
-    title: "Construction Planner",
-    socialMedias:[
-      {name:"Facebook",icon:<FaFacebook/>,href:"http://facebook.com"},
-      {name:"LinkedIn",icon:<FaLinkedin/>,href:"http://linkedin.com"},
-      {name:"Youtube",icon:<FaYoutube/>,href:"https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1"},
-      {name:"Instagram",icon:<FaInstagram/>,href:"http://instagram.com"},
+    title: "Power Systems Specialist",
+    socialMedias: [
+      { name: "Facebook", icon: <FaFacebook />, href: "https://facebook.com" },
+      { name: "LinkedIn", icon: <FaLinkedin />, href: "https://linkedin.com" },
+      { name: "Youtube", icon: <FaYoutube />, href: "https://youtube.com" },
+      { name: "Instagram", icon: <FaInstagram />, href: "https://instagram.com" },
     ]
   },
   {
     fullName: "Tunde Afolabi",
     image: member5,
-    title: "Site Supervisor",
-    socialMedias:[
-      {name:"Facebook",icon:<FaFacebook/>,href:"http://facebook.com"},
-      {name:"LinkedIn",icon:<FaLinkedin/>,href:"http://linkedin.com"},
-      {name:"Youtube",icon:<FaYoutube/>,href:"https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1"},
-      {name:"Instagram",icon:<FaInstagram/>,href:"http://instagram.com"},
+    title: "Site Installation Manager",
+    socialMedias: [
+      { name: "Facebook", icon: <FaFacebook />, href: "https://facebook.com" },
+      { name: "LinkedIn", icon: <FaLinkedin />, href: "https://linkedin.com" },
+      { name: "Youtube", icon: <FaYoutube />, href: "https://youtube.com" },
+      { name: "Instagram", icon: <FaInstagram />, href: "https://instagram.com" },
     ]
   },
   {
     fullName: "Sonia Olufemi",
     image: member6,
-    title: "Design Coordinator",
-    socialMedias:[
-      {name:"Facebook",icon:<FaFacebook/>,href:"http://facebook.com"},
-      {name:"LinkedIn",icon:<FaLinkedin/>,href:"http://linkedin.com"},
-      {name:"Youtube",icon:<FaYoutube/>,href:"https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1"},
-      {name:"Instagram",icon:<FaInstagram/>,href:"http://instagram.com"},
+    title: "Control Systems Engineer",
+    socialMedias: [
+      { name: "Facebook", icon: <FaFacebook />, href: "https://facebook.com" },
+      { name: "LinkedIn", icon: <FaLinkedin />, href: "https://linkedin.com" },
+      { name: "Youtube", icon: <FaYoutube />, href: "https://youtube.com" },
+      { name: "Instagram", icon: <FaInstagram />, href: "https://instagram.com" },
     ]
   },
 ];
@@ -241,39 +223,39 @@ export const testimonials = [
   {
     name: "Folake Adekunle",
     image: user1,
-    review: `The team at Confix exceeded our expectations. Their attention to detail and professionalism made our home renovation a smooth and enjoyable process.`,
+    review: `Dynamic Techniques Limited delivered exceptional electrical and automation work. Their professionalism and technical expertise made our project a huge success.`,
   },
   {
     name: "Jide Akinwale",
     image: user2,
-    review: `From start to finish, the project was handled with incredible skill and efficiency. I highly recommend Confix for any construction needs.`,
+    review: `Reliable, timely, and high-quality service. They handled our industrial power installation flawlessly. Highly recommended.`,
   },
   {
     name: "Chiamaka Nwachukwu",
     image: user3,
-    review: `Working with Confix was a fantastic experience. Their team was professional, creative, and committed to delivering exactly what we envisioned.`,
+    review: `Professional team with deep knowledge in automation and power systems. They exceeded our expectations in every aspect.`,
   },
   {
     name: "Tunde Balogun",
     image: user4,
-    review: `Exceptional service and quality workmanship! Confix transformed our industrial space efficiently and effectively. They are true professionals.`,
+    review: `Outstanding electrical engineering and maintenance services. A true partner for industrial projects in Nigeria.`,
   },
 ];
 
 export const blogs = [
   {
-    title: "Innovative Construction Trends for 2024",
-    content: `Discover the latest trends in construction for 2024, from sustainable building practices to cutting-edge technologies transforming the industry.`,
+    title: "Latest Trends in Industrial Automation 2026",
+    content: `Explore the newest advancements in automation, control systems, and smart power solutions transforming industries across Nigeria.`,
     image: blog1,
   },
   {
-    title: "The Importance of Sustainable Building Materials",
-    content: `Learn why using sustainable building materials is crucial for environmental protection and how it benefits both the project and the community.`,
+    title: "Importance of Proper Electrical Maintenance",
+    content: `Why regular electrical maintenance and power system audits are critical for safety, efficiency, and minimizing downtime.`,
     image: blog2,
   },
   {
-    title: "Top Tips for Effective Project Management",
-    content: `Explore essential tips for managing construction projects efficiently, including scheduling, budgeting, and communication strategies.`,
+    title: "Best Practices for HV/LV Power Installations",
+    content: `Essential tips and industry standards for successful high and low voltage electrical installations.`,
     image: blog3,
   },
 ];
@@ -282,87 +264,35 @@ export const footer = [
   {
     title: "Company",
     routes: [
-      {
-        name: "About Us",
-        href: "#",
-      },
-      {
-        name: "Our Team",
-        href: "#",
-      },
-      {
-        name: "Careers",
-        href: "#",
-      },
-      {
-        name: "Contact Us",
-        href: "#",
-      },
+      { name: "About Us", href: "#about" },
+      { name: "Our Team", href: "#team" },
+      { name: "Careers", href: "#" },
+      { name: "Contact Us", href: "#contact" },
     ],
   },
   {
     title: "Services",
     routes: [
-      {
-        name: "Residential Construction",
-        href: "#",
-      },
-      {
-        name: "Commercial Projects",
-        href: "#",
-      },
-      {
-        name: "Renovation & Remodeling",
-        href: "#",
-      },
-      {
-        name: "Project Management",
-        href: "#",
-      },
+      { name: "Electrical Installations", href: "#services" },
+      { name: "Industrial Automation", href: "#services" },
+      { name: "Power Systems", href: "#services" },
+      { name: "Maintenance & Support", href: "#services" },
     ],
   },
   {
     title: "Resources",
     routes: [
-      {
-        name: "Blog",
-        href: "#",
-      },
-      {
-        name: "Case Studies",
-        href: "#",
-      },
-      {
-        name: "FAQs",
-        href: "#",
-      },
-      {
-        name: "Privacy Policy",
-        href: "#",
-      },
+      { name: "Blog", href: "#" },
+      { name: "Case Studies", href: "#" },
+      { name: "FAQs", href: "#" },
+      { name: "Privacy Policy", href: "#" },
     ],
   },
 ];
 
 export const socialHandles = [
-  {
-    name: "Facebook",
-    icon: <FaFacebook />,
-    link: "https://www.facebook.com",
-  },
-  {
-    name: "Instagram",
-    icon: <FaInstagram />,
-    link: "https://www.instagram.com",
-  },
-  {
-    name: "LinkedIn",
-    icon: <FaLinkedin />,
-    link: "https://www.linkedin.com",
-  },
-  {
-    name: "Youtube",
-    icon: <FaYoutube />,
-    link: "https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1",
-  },
+  { name: "Facebook", icon: <FaFacebook />, link: "https://www.facebook.com/wegivethebestindustrialquality" },
+  { name: "Instagram", icon: <FaInstagram />, link: "https://www.instagram.com" },
+  { name: "LinkedIn", icon: <FaLinkedin />, link: "https://www.linkedin.com" },
+  { name: "Youtube", icon: <FaYoutube />, link: "https://www.youtube.com" },
 ];

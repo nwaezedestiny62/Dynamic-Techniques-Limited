@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import "./Team.css";
 import { teamMembers } from '../../data';
-import { FaArrowRight } from 'react-icons/fa';
 import { motion, useAnimationControls } from 'framer-motion';
 
 const Team = () => {
@@ -54,14 +53,6 @@ const Team = () => {
               Creative, dedicated, and always pushing boundaries.
             </p>
           </motion.div>
-
-          <a 
-            href="#contact" 
-            className="group flex items-center gap-3 bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-500 hover:to-red-500 px-8 py-4 rounded-2xl font-semibold text-lg transition-all duration-300 whitespace-nowrap"
-          >
-            Let's Work Together
-            <FaArrowRight className="group-hover:translate-x-1 transition-transform" />
-          </a>
         </div>
 
         {/* Auto-playing Team Scroll */}

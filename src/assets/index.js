@@ -1,4 +1,4 @@
-export { default as logo } from "./logo.svg";
+export { default as logo } from "./logo.png";
 export { default as crane } from "./crane.png";
 export { default as about } from "./about.jpg";
 export { default as sketch } from "./sketch.png";

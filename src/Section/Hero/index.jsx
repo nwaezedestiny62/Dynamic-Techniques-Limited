@@ -15,13 +15,14 @@ const Hero = () => {
           <div className="hero__left">
 
             <h1 className="hero__heading">
-              Building Excellence,<br />
-              Creating Tomorrow
+              Engineering Excellence,<br />
+              Powering Tomorrow
             </h1>
             
             <p className="hero__description">
-              We deliver world-class construction solutions with innovation, 
-              sustainability, and unmatched craftsmanship. Turning visions into lasting landmarks.
+              We deliver world-class industrial engineering solutions specializing in 
+              electrical systems, automation, and power infrastructure. 
+              Transforming challenges into reliable, high-performance results.
             </p>
 
             <Achievement />
@@ -52,7 +53,7 @@ const Hero = () => {
           {/* Right Column - Image */}
           <div className="hero__right">
             <div className="hero__image-wrapper">
-              <img src={crane} alt="Construction crane on site" />
+              <img src={crane} alt="Industrial electrical and automation project" />
               <div className="image-glow"></div>
             </div>
           </div>
