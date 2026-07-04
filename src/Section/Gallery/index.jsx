@@ -2,15 +2,22 @@ import React, { useState } from 'react';
 import './Gallery.css';
 import { motion, AnimatePresence } from 'framer-motion';
 
+// Import all gallery images from the assets barrel file
+import {
+  gallery1, gallery2, gallery3, gallery4, gallery5, gallery6,
+  gallery7, gallery8, gallery9, gallery10, gallery11, gallery12,
+  gallery13, gallery14, gallery15, gallery16, gallery17, gallery18,
+  gallery19, gallery20
+} from '../../assets';
+
 const Gallery = () => {
   const [showAll, setShowAll] = useState(false);
 
   const allImages = [
-    'gallery1.jpg', 'gallery2.jpg', 'gallery3.jpg', 'gallery4.jpg',
-    'gallery5.jpg', 'gallery6.jpg', 'gallery7.jpg', 'gallery8.jpg',
-    'gallery9.jpg', 'gallery10.jpg', 'gallery11.jpg', 'gallery12.jpg',
-    'gallery13.jpg', 'gallery14.jpg', 'gallery15.jpg', 'gallery16.jpg',
-    'gallery17.jpg', 'gallery18.jpg', 'gallery19.jpg', 'gallery20.jpg'
+    gallery1, gallery2, gallery3, gallery4, gallery5, gallery6,
+    gallery7, gallery8, gallery9, gallery10, gallery11, gallery12,
+    gallery13, gallery14, gallery15, gallery16, gallery17, gallery18,
+    gallery19, gallery20
   ];
 
   const initialImages = allImages.slice(0, 6);
@@ -37,9 +44,9 @@ const Gallery = () => {
         {/* Gallery Grid */}
         <div className="gallery-grid">
           <AnimatePresence>
-            {displayImages.map((img, index) => (
+            {displayImages.map((imgSrc, index) => (
               <motion.div
-                key={img}
+                key={index}                    // Better key when using imported images
                 className="gallery-item"
                 initial={{ opacity: 0, scale: 0.8, y: 50 }}
                 animate={{ opacity: 1, scale: 1, y: 0 }}
@@ -48,13 +55,10 @@ const Gallery = () => {
                 whileHover={{ scale: 1.05, y: -10 }}
               >
                 <img 
-                  src={`../../assets/${img}`}     // ← This is the correct relative path
+                  src={imgSrc}
                   alt={`Industrial Project ${index + 1}`}
                   className="gallery-image"
                   loading="lazy"
-                  onError={(e) => {
-                    e.target.src = 'https://via.placeholder.com/400x300?text=Image+Not+Found';
-                  }}
                 />
                 <div className="gallery-overlay">
                   <div className="overlay-content">

@@ -23,7 +23,6 @@ import {
   member3,
   member4,
   member5,
-  member6,
   portfolio1,
   portfolio2,
   portfolio3,
@@ -152,9 +151,9 @@ export const portfolio = [
 
 export const teamMembers = [
   {
-    fullName: "Chinedu Okafor",
+    fullName: "Stephen Ogbonna",
     image: member1,
-    title: "Lead Electrical Engineer",
+    title: "Operations Director",
     socialMedias: [
       { name: "Facebook", icon: <FaFacebook />, href: "https://facebook.com" },
       { name: "LinkedIn", icon: <FaLinkedin />, href: "https://linkedin.com" },
@@ -163,9 +162,9 @@ export const teamMembers = [
     ]
   },
   {
-    fullName: "Aisha Ibrahim",
+    fullName: "Esther Ibang",
     image: member2,
-    title: "Senior Automation Engineer",
+    title: "Admin Manager",
     socialMedias: [
       { name: "Facebook", icon: <FaFacebook />, href: "https://facebook.com" },
       { name: "LinkedIn", icon: <FaLinkedin />, href: "https://linkedin.com" },
@@ -174,9 +173,9 @@ export const teamMembers = [
     ]
   },
   {
-    fullName: "Emmanuel Adeoye",
+    fullName: "Yaya Usman",
     image: member3,
-    title: "Chief Project Engineer",
+    title: "Project Director",
     socialMedias: [
       { name: "Facebook", icon: <FaFacebook />, href: "https://facebook.com" },
       { name: "LinkedIn", icon: <FaLinkedin />, href: "https://linkedin.com" },
@@ -185,9 +184,9 @@ export const teamMembers = [
     ]
   },
   {
-    fullName: "Ngozi Eze",
+    fullName: "Donald Egwuagu",
     image: member4,
-    title: "Power Systems Specialist",
+    title: "Project Site Manager",
     socialMedias: [
       { name: "Facebook", icon: <FaFacebook />, href: "https://facebook.com" },
       { name: "LinkedIn", icon: <FaLinkedin />, href: "https://linkedin.com" },
@@ -196,20 +195,9 @@ export const teamMembers = [
     ]
   },
   {
-    fullName: "Tunde Afolabi",
+    fullName: "Kennedy James",
     image: member5,
-    title: "Site Installation Manager",
-    socialMedias: [
-      { name: "Facebook", icon: <FaFacebook />, href: "https://facebook.com" },
-      { name: "LinkedIn", icon: <FaLinkedin />, href: "https://linkedin.com" },
-      { name: "Youtube", icon: <FaYoutube />, href: "https://youtube.com" },
-      { name: "Instagram", icon: <FaInstagram />, href: "https://instagram.com" },
-    ]
-  },
-  {
-    fullName: "Sonia Olufemi",
-    image: member6,
-    title: "Control Systems Engineer",
+    title: "Technical Director",
     socialMedias: [
       { name: "Facebook", icon: <FaFacebook />, href: "https://facebook.com" },
       { name: "LinkedIn", icon: <FaLinkedin />, href: "https://linkedin.com" },

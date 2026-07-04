@@ -1,6 +1,6 @@
 import React from 'react';
 import Achievement from '../../components/Achievement';
-import { FaArrowDown } from 'react-icons/fa6';
+import { FaArrowRight } from 'react-icons/fa6';
 import { Link } from 'react-scroll';
 import { crane } from "../../assets";
 import "./Hero.css";
@@ -35,7 +35,7 @@ const Hero = () => {
                 className="btn primary"
               >
                 View Our Projects
-                <FaArrowDown className="btn-icon" />
+                <FaArrowRight className="btn-icon" />
               </Link>
               
               <Link 
@@ -45,7 +45,7 @@ const Hero = () => {
                 className="btn secondary"
               >
                 Get a Free Quote
-                <FaArrowDown className="btn-icon" />
+                <FaArrowRight className="btn-icon" />
               </Link>
             </div>
           </div>

@@ -22,8 +22,7 @@
     border: 10px solid var(--primary);
 }
 .sub__heading {
-    color: yellowgreen;
-    text-shadow: 1px 1px black;
+    color: #22d3ee;
 }
 #about .keypoints__container {
     display: grid;
