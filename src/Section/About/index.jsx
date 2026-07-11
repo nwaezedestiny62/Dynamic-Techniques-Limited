@@ -10,7 +10,7 @@ const About = () => {
         <div className="container">
           {/* Image Side */}
           <div className="about__image">
-            <img src={about} alt="Dynamic Techniques Limited team on industrial site" />
+            <img src={about} alt="Dynamic Techniques team on industrial site" />
           </div>
 
           {/* Content Side */}
@@ -20,7 +20,7 @@ const About = () => {
               Engineering Excellence, Powering Industries
             </h1>
             <p className="description">
-              At Dynamic Techniques Limited, we specialize in delivering high-quality 
+              At Dynamic Technique, we specialize in delivering high-quality 
               industrial engineering solutions with expertise in electrical systems, 
               automation, and power infrastructure. Since 2018, we have been committed 
               to providing reliable, safe, and innovative technical solutions that help 

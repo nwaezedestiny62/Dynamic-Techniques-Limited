@@ -2,18 +2,18 @@ import React, { useEffect, useRef } from 'react';
 import "./Team.css";
 import { teamMembers } from '../../data';
 import { motion, useAnimationControls } from 'framer-motion';
+import { FaWhatsapp } from 'react-icons/fa';
 
 const Team = () => {
   const containerRef = useRef(null);
   const controls = useAnimationControls();
   const isHovered = useRef(false);
 
-  // Duplicate members for seamless infinite scroll
   const duplicatedMembers = [...teamMembers, ...teamMembers];
 
   useEffect(() => {
     const startAutoScroll = async () => {
-      const cardWidth = 380; // Adjust based on your card width + gap
+      const cardWidth = 380;
       const totalWidth = cardWidth * teamMembers.length;
 
       while (true) {
@@ -21,7 +21,7 @@ const Team = () => {
           await controls.start({
             x: [-totalWidth, 0],
             transition: {
-              duration: 35,           // Slow movement (increase = slower)
+              duration: 35,
               ease: "linear",
               repeat: Infinity,
             }
@@ -91,6 +91,20 @@ const Team = () => {
                     <h3 className="team-name">{member.fullName}</h3>
                     <p className="team-title">{member.title}</p>
                   </div>
+
+                  {/* WhatsApp Call Button */}
+                  {member.whatsapp && (
+                    <a
+                      href={`https://wa.me/${member.whatsapp.replace(/\D/g, '')}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="whatsapp-call-btn"
+                      title={`Chat with ${member.fullName} on WhatsApp`}
+                    >
+                      <FaWhatsapp />
+                      <span>Chat on WhatsApp</span>
+                    </a>
+                  )}
                 </div>
               </motion.div>
             ))}

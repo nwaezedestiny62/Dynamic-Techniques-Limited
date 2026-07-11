@@ -145,3 +145,37 @@ p {
     color: #ffff;
     font-weight: 600;
 }
+
+/* ====================== WHATSAPP CALL BUTTON ====================== */
+.whatsapp-call-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px auto 0;
+  padding: 14px 28px;
+  background-color: #25D366;
+  color: white;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  width: fit-content;
+  transition: all 0.4s ease;
+  border: 2px solid rgba(255,255,255,0.2);
+}
+
+.whatsapp-call-btn:hover {
+  background-color: #20ba5a;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(37, 211, 102, 0.4);
+}
+
+.whatsapp-call-btn svg {
+  font-size: 1.5rem;
+}
+
+/* Optional: Make it stand out more on hover of the card */
+.team__card:hover .whatsapp-call-btn {
+  transform: scale(1.05);
+}

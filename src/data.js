@@ -154,6 +154,7 @@ export const teamMembers = [
     fullName: "Stephen Ogbonna",
     image: member1,
     title: "Operations Director",
+    whatsapp: "+2348012345678",   // ← Change to real number
     socialMedias: [
       { name: "Facebook", icon: <FaFacebook />, href: "https://facebook.com" },
       { name: "LinkedIn", icon: <FaLinkedin />, href: "https://linkedin.com" },
@@ -165,6 +166,7 @@ export const teamMembers = [
     fullName: "Esther Ibang",
     image: member2,
     title: "Admin Manager",
+    whatsapp: "+2348098765432",   // ← Change to real number
     socialMedias: [
       { name: "Facebook", icon: <FaFacebook />, href: "https://facebook.com" },
       { name: "LinkedIn", icon: <FaLinkedin />, href: "https://linkedin.com" },
@@ -176,6 +178,7 @@ export const teamMembers = [
     fullName: "Yaya Usman",
     image: member3,
     title: "Project Director",
+    whatsapp: "+2348034567890",   // ← Change to real number
     socialMedias: [
       { name: "Facebook", icon: <FaFacebook />, href: "https://facebook.com" },
       { name: "LinkedIn", icon: <FaLinkedin />, href: "https://linkedin.com" },
@@ -187,6 +190,7 @@ export const teamMembers = [
     fullName: "Donald Egwuagu",
     image: member4,
     title: "Project Site Manager",
+    whatsapp: "+2348056789012",   // ← Change to real number
     socialMedias: [
       { name: "Facebook", icon: <FaFacebook />, href: "https://facebook.com" },
       { name: "LinkedIn", icon: <FaLinkedin />, href: "https://linkedin.com" },
@@ -198,6 +202,7 @@ export const teamMembers = [
     fullName: "Kennedy James",
     image: member5,
     title: "Technical Director",
+    whatsapp: "+2348078901234",   // ← Change to real number
     socialMedias: [
       { name: "Facebook", icon: <FaFacebook />, href: "https://facebook.com" },
       { name: "LinkedIn", icon: <FaLinkedin />, href: "https://linkedin.com" },
@@ -211,7 +216,7 @@ export const testimonials = [
   {
     name: "Folake Adekunle",
     image: user1,
-    review: `Dynamic Techniques Limited delivered exceptional electrical and automation work. Their professionalism and technical expertise made our project a huge success.`,
+    review: `Dynamic Technique delivered exceptional electrical and automation work. Their professionalism and technical expertise made our project a huge success.`,
   },
   {
     name: "Jide Akinwale",

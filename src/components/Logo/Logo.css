@@ -1,13 +1,10 @@
 .logo__container {
-    gap: 5px;
-}
-.logo__container .logo {
-    width: 130px;
-    height: 60px;
+    gap: 2px;
 }
 
 .logo__container img {
-    object-fit: contain;
+    width: 200px;
+    height: 60px;
 }
 
 .logo__container h2 {
